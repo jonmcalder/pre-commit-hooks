@@ -2,10 +2,16 @@
 % Please edit documentation in R/setup.R
 \name{open_config}
 \alias{open_config}
-\title{Open the pre-commit config file}
+\title{Open pre-commit related files}
 \usage{
 open_config()
 }
 \description{
-Open the pre-commit config file
+Open pre-commit related files
+}
+\details{
+\itemize{
+\item \code{open_config()}: opens the pre-commit config file.
+\item \code{open_wordlist()}: opens the the WORDLIST file for the check-spelling hook.
+}
 }
