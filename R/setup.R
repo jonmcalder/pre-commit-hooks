@@ -8,3 +8,14 @@ use_precommit_hook_config <- function(hooks = NULL, path_root = here::here()) {
     path_root
   )
 }
+
+#' Open the pre-commit config file
+#'
+#' @export
+open_config <- function() {
+  rstudioapi::navigateToFile(".pre-commit-config.yaml")
+}
+
+open_wordlist <- function() {
+  rstudioapi::navigateToFile("inst/WORDLIST")
+}
